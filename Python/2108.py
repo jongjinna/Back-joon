@@ -23,7 +23,7 @@ def ranges(lst):
 
 # main
 a = int(input())
-lst = sorted([int(input())] for _ in range(a))
+lst = sorted([int(input()) for _ in range(a)])
 
 print(mean(lst))
 print(median(lst))
