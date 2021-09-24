@@ -13,4 +13,4 @@ for i in range(N):
     else:
       print(lst[i], lst[j])
 
-# 자 이제 m을 써야되는데
+# 자 이제 m을 써야되는데.
