@@ -6,5 +6,3 @@ t = 2
 while 1:
   for i in lst:
     if i%t
-
-음냐음냐
