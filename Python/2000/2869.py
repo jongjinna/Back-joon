@@ -1,6 +1,7 @@
 import sys
 a, b, c = map(int, sys.stdin.readline().split())
-x = round((c / (a-b)))
-y = (a//(a-b))
-z = x - y + 1
-print(z)
+count = (c - b) / (a - b)
+if count == int(count):
+  print(int(count))
+else:
+  print(int(count)+1)
